@@ -1,0 +1,540 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1519px;
+  margin: auto;
+}
+/*NAVBAR */
+
+.navbar {
+  background: #141414;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.firstDiv {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.secondDiv {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.p {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.account {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+/* NAVBAR LOGO */
+
+.navbarLogo {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoDiv {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logoName {
+  font-size: 41px;
+  font-weight: 600;
+}
+
+.logo {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.divLogo {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+
+.inputSearch {
+  border: 0;
+  padding: 6px;
+  width: 280px;
+  background: #f2f3f3;
+  font-size: 14px;
+  color: #737576;
+  font-family: "Montserrat", sans-serif;
+}
+
+.searchDiv {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 3px;
+  padding: 6px 10px 6px 20px;
+  border: 1px solid #737576;
+  background: #f2f3f3;
+}
+
+.txt {
+  color: #e8aa31;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.number {
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.locaName {
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.textDiv {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.locationOrder {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.loca {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.price {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.priceText {
+  font-weight: 500;
+  color: #e8aa31;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.count {
+  background: #e8aa31;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 50%;
+  font-size: 8px;
+  width: 14px;
+  height: 14px;
+  position: relative;
+  right: 8px;
+  top: -1px;
+}
+
+.addCards {
+  display: flex;
+  align-items: start;
+}
+
+.order {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.orderDiv {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* NAVBAR navigation */
+
+.secText {
+  background: #000;
+  padding: 25px;
+  padding-bottom: 0;
+}
+
+.divTxt {
+  display: flex;
+  align-items: center;
+  gap: 115px;
+  padding-bottom: 25px;
+}
+
+.firstText {
+  font-weight: 500;
+  color: #e8aa31;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.txtAll {
+  font-weight: 500;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.hr {
+  width: 142px;
+  border: 1px solid #e8aa31;
+}
+
+/* SECTION 1 */
+
+.sectionTxt {
+  padding: 25px;
+}
+
+.section1 {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+  padding: 25px;
+  padding-top: 5px;
+}
+
+.sectionTxt {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.textAll {
+  font-weight: 500;
+  color: #7f7f7f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.txt3 {
+  font-weight: 500;
+  color: #e8aa31;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.divAllImg {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.imgAllDiv {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* tovar */
+
+.catalog {
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  padding: 26px;
+  height: 788px;
+  width: 806px;
+}
+
+.knifeStart {
+  display: flex;
+  gap: 10px;
+}
+
+.knifeName {
+  font-family: "Montserrat", sans-serif;
+  color: #141414;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.knifeText {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.knifeIcons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.knifeDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameCato {
+  color: #24ad53;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 0 20px 0;
+}
+
+.hrAll {
+  border: 1px solid #dbdbdb;
+}
+
+.divTextObj {
+  padding: 30px 0 30px 0;
+  display: flex;
+  gap: 41px;
+}
+
+.keyTextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.propertyTextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #898989;
+  font-size: 18px;
+}
+
+.textAndInputDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 30px 0;
+  align-items: center;
+}
+
+.keyTxtDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.button {
+  /* background:; */
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background: #000;
+  cursor: pointer;
+}
+
+.dropdown {
+  width: 430px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.txtBtn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #14141480;
+  margin: 11px 0 12px 20px;
+}
+
+.divInput {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.divTxtEnd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 30px 0;
+}
+
+.btnEnd {
+  width: 19px;
+  height: 18px;
+  background: #b8b8b8;
+  margin: auto;
+  border: none;
+  border-radius: 50%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.pEnd {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #898989;
+}
+
+.txtEnd {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.txtAndBtnEnd {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.divButtons :nth-child(1) {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  background: #141414;
+  cursor: pointer;
+}
+
+.divButtons :nth-child(2) {
+  width: 50px;
+  height: 50px;
+  border: none;
+  color: #141414;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.divButtons :nth-child(3) {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  background: #141414;
+  cursor: pointer;
+}
+
+.btnBuyAndAdd :nth-child(1) {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 7.5px 22px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e8aa31;
+  border-radius: 3px;
+}
+
+.btnBuyAndAdd :nth-child(2) {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 13.5px 22px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #141414;
+  border-radius: 3px;
+}
+
+.btnBuyAndAdd {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.divAllButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown-content {
+  display: none;
+  width: 430px;
+  position: absolute;
+  bottom: -52%;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content p {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content p:hover {
+  background-color: #141414;
+  color: white;
+}
+
+.show {
+  display: block;
+}
+
+.tooltip {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #e8aa31;
+  padding: 20px;
+  position: absolute;
+  border-radius: 5px;
+  bottom: 40px;
+  left: 75%;
+  bottom: -240px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 340px;
+  text-align: start;
+}
